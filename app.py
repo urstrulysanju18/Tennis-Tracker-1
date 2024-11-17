@@ -11,7 +11,7 @@ temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
 
 # Load YOLOv5 model
-model_path = "best_1.pt"
+model_path = 'best.pt'
 model = torch.hub.load('.', 'custom', path=model_path, source='local')
 
 # Streamlit page configuration
