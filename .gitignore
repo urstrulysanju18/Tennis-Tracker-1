@@ -48,7 +48,8 @@ VOC/
 !targets*.mat
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-*.weights
+# *.weights
+# *.pt
 *.pb
 *.onnx
 *.engine
