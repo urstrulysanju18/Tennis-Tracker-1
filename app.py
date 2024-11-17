@@ -11,7 +11,7 @@ temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
 
 # Load YOLOv5 model
-model_path = r"runs\train\yolov5s_results\weights\best.pt"
+model_path = 'best.pt'
 model = torch.hub.load('.', 'custom', path=model_path, source='local')
 
 # Streamlit page configuration
